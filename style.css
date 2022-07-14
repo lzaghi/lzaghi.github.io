@@ -1,3 +1,10 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Righteous', cursive; 
+*/
+
 :root {
     --floral-white: hsla(46, 100%, 97%, 1);
     --pale-silver: hsla(38, 16%, 76%, 1);
@@ -9,4 +16,14 @@
 
 body {
     background-color: var(--eerie-black);
+}
+
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: var(--pale-silver)
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--pale-silver)
 }
