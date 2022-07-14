@@ -1,0 +1,12 @@
+:root {
+    --floral-white: hsla(46, 100%, 97%, 1);
+    --pale-silver: hsla(38, 16%, 76%, 1);
+    --black-olive: hsla(34, 6%, 24%, 1);
+    --eerie-black: hsla(40, 4%, 14%, 1);
+    --flame: hsla(17, 83%, 54%, 1);
+}
+
+
+body {
+    background-color: var(--eerie-black);
+}
