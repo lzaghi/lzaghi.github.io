@@ -15,15 +15,24 @@ font-family: 'Righteous', cursive;
 
 
 body {
-    background-color: var(--eerie-black);
+    /* background-color: var(--eerie-black); */
+    background-image: radial-gradient(circle, var(--flame), var(--eerie-black));
+    color: var(--pale-silver);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 h1 {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: var(--pale-silver)
 }
 
 .description {
     font-family: 'Montserrat', sans-serif;
-    color: var(--pale-silver)
+}
+
+#fotoLucca {
+    border-radius: 25%;
+}
+
+h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
 }
