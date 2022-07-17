@@ -19,6 +19,9 @@ body {
     background-image: radial-gradient(circle, var(--flame), var(--eerie-black));
     color: var(--pale-silver);
     font-family: 'Rajdhani', sans-serif;
+
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -30,9 +33,47 @@ h1 {
 }
 
 #fotoLucca {
-    border-radius: 25%;
+    border-radius: 100%;
 }
 
 h2, h3 {
     font-family: 'Rajdhani', sans-serif;
+}
+
+#nome {
+    text-align: center;
+}
+
+#parte1 {
+    width: 100%;
+    margin-inline: auto;
+}
+
+#foto {
+    width: 40%;
+    float: left;
+   
+    display: flex;
+    justify-content: center;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+    padding: 20px;
+    background-color: purple;
+
+    border: 3px solid black;
+}
+
+#descricao {
+    margin-left: 400px;
+    margin-right: 40px;
+
+    padding: 25px;
+
+    border: 3px solid black;
+}
+
+#skills ul li:nth-child(odd) {
+    font-style: italic;
 }
