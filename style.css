@@ -21,7 +21,7 @@ body {
     font-family: 'Rajdhani', sans-serif;
 
     margin: 0;
-    padding: 0;
+    padding: 3%;
 }
 
 h1 {
@@ -30,10 +30,6 @@ h1 {
 
 .description {
     font-family: 'Montserrat', sans-serif;
-}
-
-#fotoLucca {
-    border-radius: 100%;
 }
 
 h2, h3 {
@@ -45,33 +41,24 @@ h2, h3 {
 }
 
 #parte1 {
-    width: 100%;
-    margin-inline: auto;
+    height: 300px;
+    position: relative;
 }
 
-#foto {
-    width: 40%;
+#fotoLucca {
+    border-radius: 100%;
+
     float: left;
-   
-    display: flex;
-    justify-content: center;
+    height: 280px;
 
-    margin-left: 40px;
-    margin-right: 40px;
-
-    padding: 20px;
-    background-color: purple;
-
-    border: 3px solid black;
+    padding: 10px;
+    background-color: var(--flame);
 }
 
 #descricao {
-    margin-left: 400px;
-    margin-right: 40px;
-
-    padding: 25px;
-
-    border: 3px solid black;
+    position: absolute;
+    top: 15%;
+    right: 10%;
 }
 
 #skills ul li:nth-child(odd) {
