@@ -43,6 +43,7 @@ h2, h3 {
 #parte1 {
     height: 300px;
     position: relative;
+    /* border: 2px solid black; */
 }
 
 #fotoLucca {
@@ -51,6 +52,9 @@ h2, h3 {
     float: left;
     height: 280px;
 
+    position: absolute;   /*relative teria o mesmo efeito*/
+    left: 50px;
+
     padding: 10px;
     background-color: var(--flame);
 }
@@ -58,7 +62,7 @@ h2, h3 {
 #descricao {
     position: absolute;
     top: 15%;
-    right: 10%;
+    right: 5%;
 }
 
 #skills ul li:nth-child(odd) {
